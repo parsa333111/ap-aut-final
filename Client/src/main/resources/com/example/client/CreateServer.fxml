@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="750.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.client.CreateServerController">
+   <children>
+      <AnchorPane layoutX="-3.0" prefHeight="753.0" prefWidth="1204.0" style="-fx-background-color: #37393f; -fx-control-inner-background: #37393f;">
+         <children>
+            <VBox layoutX="429.0" layoutY="190.0" prefHeight="400.0" prefWidth="450.0" style="-fx-background-color: White;">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="        Customize your Server" textAlignment="CENTER" wrappingWidth="398.21630859375">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Text>
+                  <HBox prefHeight="4.0" prefWidth="265.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="                    Give your new server a personality with a name and an      icon. You can always change it later." textAlignment="CENTER" wrappingWidth="449.9500732421875">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <HBox prefHeight="13.0" prefWidth="399.0" />
+                  <HBox prefHeight="22.0" prefWidth="402.0">
+                     <children>
+                        <HBox prefHeight="82.0" prefWidth="193.0" />
+                        <Circle fx:id="serverPhoto" fill="#434343" onMouseClicked="#changeAvatar" radius="41.0" stroke="BLACK" strokeType="INSIDE" />
+                     </children></HBox>
+                  <HBox prefHeight="13.0" prefWidth="399.0" />
+                  <Text fill="#545050" strokeType="OUTSIDE" strokeWidth="0.0" text=" Server Name" wrappingWidth="398.21630859375">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="serverName" prefHeight="39.0" prefWidth="263.0" style="-fx-background-color: #e2e5e7; -fx-text-fill: black;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <Text fill="#545050" strokeType="OUTSIDE" strokeWidth="0.0" text=" By create a server you accept the privacy" wrappingWidth="398.21630859375">
+                     <font>
+                        <Font size="12.0" />
+                     </font>
+                  </Text>
+                  <HBox prefHeight="23.0" prefWidth="399.0" />
+                  <HBox prefHeight="15.0" prefWidth="399.0" style="-fx-background-color: #e2e5e7;">
+                     <children>
+                        <HBox prefHeight="16.0" prefWidth="399.0" style="-fx-background-color: #e2e5e7;" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="34.0" prefWidth="399.0" style="-fx-background-color: #e2e5e7#e2e5e7;">
+                     <children>
+                        <HBox prefHeight="34.0" prefWidth="14.0" style="-fx-background-color: #e2e5e7#e2e5e7;" />
+                        <HBox prefHeight="34.0" prefWidth="349.0" style="-fx-background-color: #e2e5e7;">
+                           <children>
+                              <Button mnemonicParsing="false" onMouseClicked="#exit" prefHeight="34.0" prefWidth="68.0" style="-fx-background-color: #e2e5e7;" text="Back" textAlignment="CENTER" />
+                           </children>
+                        </HBox>
+                        <Button mnemonicParsing="false" onMouseClicked="#create" prefHeight="34.0" prefWidth="68.0" style="-fx-background-color: #5665fb;" text="Create" textAlignment="JUSTIFY" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="16.0" prefWidth="399.0" style="-fx-background-color: #e2e5e7;" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

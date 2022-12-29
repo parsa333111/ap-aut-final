@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.client.playmusicController">
+    <center>
+        <VBox prefHeight="420.0" prefWidth="682.0" style="-fx-background-color: WHITE; -fx-border-color: black;" BorderPane.alignment="CENTER">
+            <children>
+                <Text fx:id="nameOfSong" strokeType="OUTSIDE" strokeWidth="0.0" text="name of song" textAlignment="CENTER" wrappingWidth="1197.336669921875">
+                    <font>
+                        <Font size="50.0" />
+                    </font>
+                </Text>
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="100.80001258850098" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="100.80001258850098" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="100.80001258850098" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="100.80001258850098" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="100.80001258850098" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="100.80001258850098" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="100.80001258850098" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="100.80001258850098" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="100.80001258850098" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="100.80001258850098" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="100.80001258850098" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="100.80001258850098" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="100.80001258850098" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="100.80001258850098" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="100.80001258850098" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+                <ProgressBar fx:id="progressBarMusic" onMouseClicked="#seeking" prefHeight="62.0" prefWidth="1207.0" progress="0.0" style="-fx-border-color: BLACK; -fx-background-color: #2e3137;" />
+                <HBox prefHeight="168.0" prefWidth="1198.0">
+                    <children>
+                        <ImageView fitHeight="160.0" fitWidth="212.0" onMouseClicked="#stop" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@picturre/stop.jpg" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="162.0" fitWidth="165.0" onMouseClicked="#play" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@picturre/start.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="170.0" fitWidth="162.0" onMouseClicked="#pause" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@picturre/pause.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="163.0" fitWidth="172.0" onMouseClicked="#previous" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@picturre/previous.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="158.0" fitWidth="164.0" onMouseClicked="#next" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@picturre/next.png" />
+                            </image>
+                        </ImageView>
+                        <Button mnemonicParsing="false" onMouseClicked="#back" prefHeight="158.0" prefWidth="111.0" text="back" />
+                        <Button mnemonicParsing="false" prefHeight="158.0" prefWidth="125.0" text="upload" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </center>
+</BorderPane>

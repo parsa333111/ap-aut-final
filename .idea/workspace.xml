@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="06627ed1-2084-4a56-b55e-e26f8bfa713f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/com/example/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/com/example/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/com/example/client/addFriendMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/com/example/client/addFriendMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Server/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/out/production/Server/server/DataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/out/production/Server/server/DataBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/out/production/Server/server/Discord$ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/out/production/Server/server/Discord$ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/out/production/Server/server/Discord.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/out/production/Server/server/Discord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/out/production/Server/server/DiscordThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/out/production/Server/server/DiscordThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/out/production/Server/server/FileHandle$ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/out/production/Server/server/FileHandle$ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/out/production/Server/server/FileHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/out/production/Server/server/FileHandle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/out/production/Server/server/FileThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/out/production/Server/server/FileThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/out/production/Server/server/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/out/production/Server/server/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/out/production/Server/server/Notification$ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/out/production/Server/server/Notification$ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/out/production/Server/server/Notification.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/out/production/Server/server/Notification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/out/production/Server/server/NotificationThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/out/production/Server/server/NotificationThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/out/production/Server/server/OpenThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/out/production/Server/server/OpenThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/out/production/Server/server/ServerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/out/production/Server/server/ServerThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/out/production/Server/server/StackServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/out/production/Server/server/StackServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/out/production/Server/server/UpdThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/out/production/Server/server/UpdThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/out/production/Server/share/ChatChannel.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/out/production/Server/share/ChatChannel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/out/production/Server/share/ClientData.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/out/production/Server/share/ClientData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/out/production/Server/share/CurrentTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/out/production/Server/share/CurrentTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/out/production/Server/share/Massage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/out/production/Server/share/Massage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/out/production/Server/share/Msg.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/out/production/Server/share/Msg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/out/production/Server/share/RandomToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/out/production/Server/share/RandomToken.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/out/production/Server/share/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/Server/out/production/Server/share/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/save.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Server/save.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/server/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/server/DataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/server/Discord.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/server/Discord.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BFgHktu1kKHzE9Ot29Oj9XYsYQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;16&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hamed/Desktop/college lesson/ap/Advaned_progromming_finalproject/Discord/Client&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.discord.HelloApplication" />
+      <module name="Discord" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.discord.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06627ed1-2084-4a56-b55e-e26f8bfa713f" name="Changes" comment="" />
+      <created>1656507166500</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656507166500</updated>
+      <workItem from="1656507173038" duration="1158000" />
+      <workItem from="1656508373015" duration="140000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

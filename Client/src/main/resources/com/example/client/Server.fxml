@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1200.0" style="-fx-background-color: #37393f;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.client.ServerController">
+    <left>
+        <HBox prefHeight="340.0" prefWidth="325.0" BorderPane.alignment="CENTER">
+            <children>
+                <VBox prefHeight="340.0" prefWidth="75.0" style="-fx-background-color: #242424;">
+                    <children>
+                        <ListView fx:id="listOfServers" prefHeight="672.0" prefWidth="75.0" style="-fx-background-color: #242424; -fx-control-inner-background: #242424;" stylesheets="@ChatStyle.css" />
+                    </children></VBox>
+                <VBox prefHeight="336.0" prefWidth="250.0" style="-fx-background-color: #2e3137;">
+               <children>
+                  <ListView fx:id="listOfChats" prefHeight="675.0" prefWidth="250.0" style="-fx-background-color: #2e3137; -fx-control-inner-background: #2e3137;" stylesheets="@ChatStyle.css" />
+               </children></VBox>
+            </children>
+        </HBox>
+    </left>
+    <bottom>
+        <HBox prefHeight="33.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <children>
+                <HBox prefHeight="34.0" prefWidth="69.0" style="-fx-background-color: #242424;" />
+                <ImageView fitHeight="67.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@picturre/firstbackground.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fx:id="setting" fitHeight="34.0" fitWidth="43.0" onMouseClicked="#openFXML" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@picturre/setting%20icon.png" />
+                    </image>
+                </ImageView>
+                <HBox prefHeight="36.0" prefWidth="166.0" style="-fx-background-color: #2e3137;">
+                    <children>
+                        <Button mnemonicParsing="false" onMouseClicked="#goToMusic" prefHeight="22.0" prefWidth="146.0" style="-fx-background-color: #2e3137;" text="play music" textFill="WHITE" />
+                    </children></HBox>
+            <TextField fx:id="clientWrite" onAction="#send" prefHeight="36.0" prefWidth="637.0" style="-fx-background-color: #595E65; -fx-text-fill: White;" />
+            <ImageView fitHeight="36.0" fitWidth="49.0" onMouseClicked="#send" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@picturre/send.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="38.0" fitWidth="58.0" onMouseClicked="#addFile">
+               <image>
+                  <Image url="@picturre/Screen%20Shot%202022-07-12%20at%206.35.12%20PM.png" />
+               </image>
+            </ImageView>
+            <HBox prefHeight="36.0" prefWidth="143.0" style="-fx-background-color: #2e3137;" />
+            </children>
+        </HBox>
+    </bottom>
+    <top>
+        <HBox prefHeight="0.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <children>
+                <HBox prefHeight="26.0" prefWidth="325.0">
+                    <children>
+                        <HBox prefHeight="26.0" prefWidth="75.0" style="-fx-background-color: #242424;">
+                     <children>
+                        <HBox prefHeight="40.0" prefWidth="16.0" />
+                        <Circle fill="#2b6dab" onMouseClicked="#exitButton" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+                     </children></HBox>
+                        <HBox prefHeight="40.0" prefWidth="250.0" style="-fx-background-color: #2e3137;">
+                     <children>
+                        <VBox onMouseClicked="#settingShow" prefHeight="200.0" prefWidth="250.0">
+                           <children>
+                              <HBox prefHeight="9.0" prefWidth="100.0" />
+                              <Text fx:id="serverName" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Server" textAlignment="CENTER" wrappingWidth="246.26882934570312">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </VBox>
+                     </children></HBox>
+                    </children>
+                </HBox>
+            <ImageView fitHeight="38.0" fitWidth="59.0">
+               <image>
+                  <Image url="@picturre/Screen%20Shot%202022-07-11%20at%205.48.07%20PM.png" />
+               </image>
+            </ImageView>
+            <VBox fx:id="channelName" prefHeight="40.0" prefWidth="233.0">
+               <children>
+                  <HBox prefHeight="7.0" prefWidth="119.0" />
+                  <Text fx:id="chann" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Channel Name" textAlignment="CENTER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </VBox>
+            <HBox prefHeight="40.0" prefWidth="393.0" />
+            <ImageView fx:id="pinImage" fitHeight="39.0" fitWidth="49.0">
+               <image>
+                  <Image url="@picturre/Screen%20Shot%202022-07-11%20at%206.02.16%20PM.png" />
+               </image>
+            </ImageView>
+            <VBox prefHeight="40.0" prefWidth="72.0" style="-fx-background-color: #2e3137;">
+               <children>
+                  <HBox prefHeight="7.0" prefWidth="119.0" />
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Users" textAlignment="CENTER" wrappingWidth="143.83978271484375">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </VBox>
+            </children>
+        </HBox>
+    </top>
+    <center>
+        <ListView fx:id="massageList" prefHeight="474.0" prefWidth="551.0" style="-fx-background-color: #37393f; -fx-control-inner-background: #37393f;" stylesheets="@ChatStyle.css" BorderPane.alignment="CENTER" />
+    </center>
+    <right>
+        <VBox prefHeight="474.0" prefWidth="143.0" style="-fx-background-color: #2e3137;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Online" textAlignment="CENTER" wrappingWidth="141.33678817749023">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+            <ListView fx:id="online" prefHeight="482.0" prefWidth="143.0" style="-fx-background-color: #2e3137; -fx-control-inner-background: #2e3137; -fx-text-fill: white;" stylesheets="@ChatStyle.css" />
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Offline" textAlignment="CENTER" wrappingWidth="141.33678817749023">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+            <ListView fx:id="offline" prefHeight="482.0" prefWidth="143.0" style="-fx-background-color: #2e3137; -fx-control-inner-background: #2e3137; -fx-text-fill: white;" stylesheets="@ChatStyle.css" />
+         </children></VBox>
+    </right>
+</BorderPane>
