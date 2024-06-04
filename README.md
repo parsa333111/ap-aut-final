@@ -9,7 +9,6 @@
 </head>
 
 <body>
-    <h2>Project Description</h2>
     <p>This project features a comprehensive deployment of Discord with a full backend and frontend implementation using the Java programming language. It includes all the necessary components to run a Discord-like platform, with the backend handling data storage, authentication, and interactions, while the frontend provides a user-friendly interface for users to communicate and collaborate effectively.</p>
 
     <h2>Technical Details</h2>
