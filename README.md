@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
+<body>
 <h1>Java Discord Platform Deployment</h1>
 
     <h2>Project Description</h2>
@@ -17,5 +18,5 @@
         <li><strong>Backend:</strong> Utilizes Java for handling server-side logic, database interactions, user authentication, and real-time communication features.</li>
         <li><strong>Frontend:</strong> Implements the User Interface using Java frameworks to create a dynamic and interactive user experience.</li>
     </ul>
-
+</body>
 </html>
